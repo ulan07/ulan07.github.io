@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ulan - Resume</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: white;
+            padding: 2rem;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 2rem;
+            padding-bottom: 1rem;
+            border-bottom: 3px solid #2563eb;
+        }
+
+        .name {
+            font-size: 2.5rem;
+            font-weight: bold;
+            color: #1e293b;
+            margin-bottom: 0.5rem;
+        }
+
+        .title {
+            font-size: 1.25rem;
+            color: #2563eb;
+            margin-bottom: 1rem;
+        }
+
+        .contact-info {
+            display: flex;
+            justify-content: center;
+            gap: 1.5rem;
+            flex-wrap: wrap;
+            font-size: 0.9rem;
+            color: #64748b;
+        }
+
+        .contact-info a {
+            color: #2563eb;
+            text-decoration: none;
+        }
+
+        .section {
+            margin-bottom: 2rem;
+        }
+
+        .section-title {
+            font-size: 1.5rem;
+            color: #1e293b;
+            margin-bottom: 1rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 2px solid #e2e8f0;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .summary {
+            color: #475569;
+            line-height: 1.8;
+        }
+
+        .item {
+            margin-bottom: 1.5rem;
+        }
+
+        .item-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            margin-bottom: 0.5rem;
+        }
+
+        .item-title {
+            font-size: 1.125rem;
+            font-weight: 600;
+            color: #1e293b;
+        }
+
+        .item-subtitle {
+            color: #2563eb;
+            font-weight: 500;
+        }
+
+        .item-date {
+            color: #64748b;
+            font-size: 0.9rem;
+        }
+
+        .item-description {
+            color: #475569;
+            margin-top: 0.5rem;
+            line-height: 1.7;
+        }
+
+        .item-highlights {
+            list-style: none;
+            margin-top: 0.5rem;
+        }
+
+        .item-highlights li {
+            padding-left: 1.5rem;
+            position: relative;
+            color: #475569;
+            margin-bottom: 0.25rem;
+        }
+
+        .item-highlights li::before {
+            content: '▹';
+            position: absolute;
+            left: 0;
+            color: #2563eb;
+            font-weight: bold;
+        }
+
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1rem;
+        }
+
+        .skill-category {
+            margin-bottom: 1rem;
+        }
+
+        .skill-category-title {
+            font-weight: 600;
+            color: #1e293b;
+            margin-bottom: 0.5rem;
+        }
+
+        .skill-items {
+            color: #475569;
+            line-height: 1.8;
+        }
+
+        @media print {
+            body {
+                padding: 0;
+                max-width: 100%;
+            }
+
+            .section {
+                page-break-inside: avoid;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1 class="name">Ulan Kanagatov</h1>
+        <div class="title">Fullstack Developer</div>
+        <div class="contact-info">
+            <span>📧 <a href="mailto:u.kanagatov07@gmail.com">u.kanagatov07@gmail.com</a></span>
+            <span>💬 <a href="https://t.me/Ulan07ku">@Ulan07ku</a></span>
+            <span>💻 <a href="https://github.com/ulan07">github.com/ulan07</a></span>
+            <span>🧩 <a href="https://leetcode.com/u/ulan0705/">leetcode.com/u/ulan0705</a></span>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2 class="section-title">Professional Summary</h2>
+        <p class="summary">
+            Strong junior fullstack developer with solid foundation in C++ and Python. Currently pursuing Computer Science
+            degree at KBTU (2nd year). Demonstrated problem-solving abilities through 50+ LeetCode problems. Experienced
+            in building web applications, working with databases, and implementing complex algorithms. Passionate about
+            clean code, scalable architecture, and continuous learning. Seeking remote opportunities to contribute to
+            innovative projects while expanding technical expertise.
+        </p>
+    </div>
+
+    <div class="section">
+        <h2 class="section-title">Education</h2>
+        <div class="item">
+            <div class="item-header">
+                <div>
+                    <div class="item-title">Bachelor of Computer Science</div>
+                    <div class="item-subtitle">Kazakhstan-British Technical University (KBTU)</div>
+                </div>
+                <div class="item-date">2024 - Present</div>
+            </div>
+            <div class="item-description">
+                Currently in 2nd year, focusing on algorithms, data structures, software engineering, and web development.
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2 class="section-title">Technical Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-category">
+                <div class="skill-category-title">Languages</div>
+                <div class="skill-items">C++, Python, JavaScript, HTML, CSS</div>
+            </div>
+            <div class="skill-category">
+                <div class="skill-category-title">Backend</div>
+                <div class="skill-items">Django, Flask, FastAPI, Node.js</div>
+            </div>
+            <div class="skill-category">
+                <div class="skill-category-title">Frontend</div>
+                <div class="skill-items">React, Responsive Design, Vanilla JS</div>
+            </div>
+            <div class="skill-category">
+                <div class="skill-category-title">Database</div>
+                <div class="skill-items">PostgreSQL, SQLite, MongoDB</div>
+            </div>
+            <div class="skill-category">
+                <div class="skill-category-title">Tools & Others</div>
+                <div class="skill-items">Git, Docker, VS Code, Linux, REST APIs</div>
+            </div>
+            <div class="skill-category">
+                <div class="skill-category-title">Languages</div>
+                <div class="skill-items">English (B2), Russian (Native)</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2 class="section-title">Projects</h2>
+
+        <div class="item">
+            <div class="item-header">
+                <div>
+                    <div class="item-title">Phonebook Application</div>
+                    <div class="item-subtitle">Python, PostgreSQL, GUI</div>
+                </div>
+            </div>
+            <div class="item-description">
+                Contact management system with full CRUD functionality and database integration.
+            </div>
+            <ul class="item-highlights">
+                <li>Designed and implemented relational database schema for efficient contact storage</li>
+                <li>Built intuitive GUI with search and filtering capabilities</li>
+                <li>Implemented data persistence and validation logic</li>
+            </ul>
+        </div>
+
+        <div class="item">
+            <div class="item-header">
+                <div>
+                    <div class="item-title">Car Racing Game</div>
+                    <div class="item-subtitle">Python, Pygame, OOP</div>
+                </div>
+            </div>
+            <div class="item-description">
+                Interactive racing game featuring physics simulation and real-time rendering.
+            </div>
+            <ul class="item-highlights">
+                <li>Implemented game loop, collision detection, and score tracking system</li>
+                <li>Applied object-oriented design patterns for maintainable code structure</li>
+                <li>Optimized rendering for smooth 60 FPS gameplay</li>
+            </ul>
+        </div>
+
+        <div class="item">
+            <div class="item-header">
+                <div>
+                    <div class="item-title">Paint Application</div>
+                    <div class="item-subtitle">Python, GUI Frameworks</div>
+                </div>
+            </div>
+            <div class="item-description">
+                Graphic editor with drawing tools, color management, and canvas operations.
+            </div>
+            <ul class="item-highlights">
+                <li>Developed event-driven architecture for handling user interactions</li>
+                <li>Implemented state management for undo/redo functionality</li>
+                <li>Designed user-friendly interface with multiple drawing tools</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2 class="section-title">Achievements</h2>
+        <div class="item">
+            <div class="item-title">LeetCode Problem Solving</div>
+            <div class="item-description">
+                Solved 50+ algorithmic problems demonstrating strong foundation in data structures and algorithms.
+                Proficient in solving problems involving arrays, strings, trees, graphs, dynamic programming, and more.
+            </div>
+        </div>
+    </div>
+</body>
+</html>
