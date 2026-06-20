@@ -1,6 +1,6 @@
 // Typing Animation
 const typedTextElement = document.getElementById('typed-text');
-const textArray = [
+let textArray = [
     '2nd Year CS Student | Problem Solver | 50+ LeetCode Problems',
     'Building scalable web applications',
     'Passionate about clean code and algorithms'
@@ -28,10 +28,6 @@ function erase() {
         setTimeout(type, 500);
     }
 }
-
-document.addEventListener('DOMContentLoaded', () => {
-    setTimeout(type, 1000);
-});
 
 // Mobile Menu Toggle
 const hamburger = document.querySelector('.hamburger');
@@ -84,18 +80,6 @@ const observer = new IntersectionObserver((entries) => {
         }
     });
 }, observerOptions);
-
-// Add fade-in class to elements
-document.addEventListener('DOMContentLoaded', () => {
-    const fadeElements = document.querySelectorAll(
-        '.skill-category, .project-card, .contact-card, .stat-card, .about-text'
-    );
-
-    fadeElements.forEach(el => {
-        el.classList.add('fade-in');
-        observer.observe(el);
-    });
-});
 
 // Navbar background on scroll
 const navbar = document.querySelector('.navbar');
@@ -295,6 +279,17 @@ function applyTranslations(lang) {
 }
 
 document.addEventListener('DOMContentLoaded', () => {
+    setTimeout(type, 1000);
+
+    const fadeElements = document.querySelectorAll(
+        '.skill-category, .project-card, .contact-card, .stat-card, .about-text'
+    );
+
+    fadeElements.forEach(el => {
+        el.classList.add('fade-in');
+        observer.observe(el);
+    });
+
     const langBtns = document.querySelectorAll('.lang-btn');
 
     applyTranslations(currentLang);
