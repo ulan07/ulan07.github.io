@@ -109,6 +109,33 @@ body {
     transition: 0.3s;
 }
 
+.language-switcher {
+    display: flex;
+    gap: 0.5rem;
+    margin-left: 2rem;
+}
+
+.lang-btn {
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    color: var(--text-light);
+    padding: 0.4rem 0.8rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s;
+    font-size: 0.9rem;
+}
+
+.lang-btn:hover {
+    border-color: var(--accent);
+    background: rgba(6, 182, 212, 0.1);
+}
+
+.lang-btn.active {
+    background: var(--gradient);
+    border-color: transparent;
+}
+
 /* Hero Section */
 .hero {
     min-height: 100vh;
@@ -546,6 +573,19 @@ section {
 
     .nav-menu.active {
         left: 0;
+    }
+
+    .language-switcher {
+        position: absolute;
+        top: 1rem;
+        right: 4rem;
+        gap: 0.3rem;
+        margin-left: 0;
+    }
+
+    .lang-btn {
+        padding: 0.3rem 0.6rem;
+        font-size: 0.8rem;
     }
 
     .hero-container {
