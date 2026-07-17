@@ -2,21 +2,22 @@
 
 <div align="center">
   
-  ![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=2563EB&center=true&vCenter=true&width=435&lines=Fullstack+Developer;2nd+Year+CS+Student+at+KBTU;50%2B+LeetCode+Problems+Solved;Problem+Solver+%7C+Clean+Code+Enthusiast)
+  ![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=2563EB&center=true&vCenter=true&width=435&lines=Fullstack+Developer;2nd+Year+CS+Student+at+KBTU;100%2B+LeetCode+Problems+Solved;Problem+Solver+%7C+Clean+Code+Enthusiast)
 
 </div>
 
 ## 🚀 About Me
 
-I'm a **strong junior fullstack developer** currently pursuing Computer Science at KBTU. I'm passionate about building scalable web applications and solving complex algorithmic challenges. With expertise in **C++** and **Python**, I love learning new technologies and contributing to innovative projects.
+I'm a **strong junior fullstack developer** currently pursuing Computer Science at KBTU. I'm passionate about building scalable web applications, game development, and solving complex algorithmic challenges. With strong expertise in **C++** and experience in **Python**, I love learning new technologies and contributing to innovative projects.
 
 - 🎓 2nd Year Computer Science Student at **KBTU**
-- 💻 Strong foundation in **C++** and **Python**
-- 🧩 Solved **50+ LeetCode problems**
+- 💻 Strong expertise in **C++**, experience in **Python**
+- 🧩 Solved **100+ LeetCode problems** (primarily C++)
+- 🎮 Game development & data structures implementation
 - 🌐 Building fullstack web applications
 - 🌱 Currently expanding skills in **React** and **Node.js**
 - 💼 Open to remote opportunities
-- 🗣️ **English (B2)**, Russian (Native)
+- 🗣️ Kazakh (Native), Russian (Native), **English (B2)**
 
 ## 🛠️ Tech Stack
 
@@ -49,11 +50,25 @@ I'm a **strong junior fullstack developer** currently pursuing Computer Science 
 
 ## 📊 LeetCode Stats
 
-[![LeetCode Stats](https://img.shields.io/badge/LeetCode-50%2B_Problems-FFA116?style=for-the-badge&logo=leetcode&logoColor=white)](https://leetcode.com/u/ulan0705/)
+[![LeetCode Stats](https://img.shields.io/badge/LeetCode-100%2B_Problems-FFA116?style=for-the-badge&logo=leetcode&logoColor=white)](https://leetcode.com/u/ulan0705/)
 
 **Strong algorithmic thinking** | Data Structures & Algorithms | Problem Solving
 
 ## 🎯 Featured Projects
+
+### 🐍 Snake Game
+**Tech Stack:** C++, Windows API, Console Graphics  
+Classic snake game built with C++ using Windows Console API for real-time rendering.
+- ✅ Game loop with collision detection
+- ✅ Real-time input handling
+- ✅ Score tracking and tail growth
+
+### 🔗 Data Structures Implementation
+**Tech Stack:** C++, Algorithms, OOP  
+Complete implementations of fundamental data structures from scratch in C++.
+- ✅ Linked Lists with full operations
+- ✅ Binary Search Trees with balance algorithms
+- ✅ Memory management and pointers
 
 ### 📞 Phonebook Application
 **Tech Stack:** Python, PostgreSQL, GUI  
@@ -76,7 +91,7 @@ Graphic editor with drawing tools, color picker, and canvas management.
 - ✅ State management (undo/redo)
 - ✅ Multiple drawing tools
 
-[**View All Projects →**](https://github.com/ulan07/pp2)
+[**View All Projects →**](https://github.com/ulan07/just-coding)
 
 ## 📈 GitHub Stats
 
