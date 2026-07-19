@@ -1,7 +1,7 @@
 // Typing Animation
 const typedTextElement = document.getElementById('typed-text');
 let textArray = [
-    '2nd Year CS Student | Problem Solver | 50+ LeetCode Problems',
+    '2nd Year CS Student | Problem Solver | 100+ LeetCode Problems',
     'Building scalable web applications',
     'Passionate about clean code and algorithms'
 ];
@@ -106,7 +106,7 @@ const translations = {
         heroTitle: "Hi, I'm <span class=\"gradient-text\">Ulan</span>",
         heroSubtitle: 'Fullstack Developer',
         heroTagline: [
-            '2nd Year CS Student | Problem Solver | 50+ LeetCode Problems',
+            '2nd Year CS Student | Problem Solver | 100+ LeetCode Problems',
             'Building scalable web applications',
             'Passionate about clean code and algorithms'
         ],
@@ -129,7 +129,7 @@ const translations = {
 
         // LeetCode
         leetcodeTitle: 'LeetCode Achievements',
-        leetcodeDesc: 'Strong algorithmic thinking and problem-solving skills demonstrated through solving <strong>50+ LeetCode problems</strong>. Proficient in data structures, algorithms, and competitive programming.',
+        leetcodeDesc: 'Strong algorithmic thinking and problem-solving skills demonstrated through solving <strong>100+ LeetCode problems</strong>. Proficient in data structures, algorithms, and competitive programming.',
         leetcodeBtn: 'View LeetCode Profile',
 
         // Contact
@@ -150,7 +150,7 @@ const translations = {
         heroTitle: "Привет, я <span class=\"gradient-text\">Улан</span>",
         heroSubtitle: 'Fullstack разработчик',
         heroTagline: [
-            'Студент 2 курса CS | Решаю задачи | 50+ задач на LeetCode',
+            'Студент 2 курса CS | Решаю задачи | 100+ задач на LeetCode',
             'Создаю масштабируемые веб-приложения',
             'Увлечён чистым кодом и алгоритмами'
         ],
@@ -171,7 +171,7 @@ const translations = {
         detailFocusValue: 'Fullstack разработка',
 
         leetcodeTitle: 'Достижения на LeetCode',
-        leetcodeDesc: 'Сильное алгоритмическое мышление и навыки решения задач, продемонстрированные через решение <strong>50+ задач на LeetCode</strong>. Владею структурами данных, алгоритмами и спортивным программированием.',
+        leetcodeDesc: 'Сильное алгоритмическое мышление и навыки решения задач, продемонстрированные через решение <strong>100+ задач на LeetCode</strong>. Владею структурами данных, алгоритмами и спортивным программированием.',
         leetcodeBtn: 'Профиль на LeetCode',
 
         contactTitle: 'Свяжитесь со мной',
@@ -191,7 +191,7 @@ const translations = {
         heroTitle: "Сәлем, мен <span class=\"gradient-text\">Ұлан</span>",
         heroSubtitle: 'Fullstack әзірлеуші',
         heroTagline: [
-            '2 курс CS студенті | Есептерді шешемін | LeetCode-та 50+ есеп',
+            '2 курс CS студенті | Есептерді шешемін | LeetCode-та 100+ есеп',
             'Масштабталатын веб-қосымшаларды жасаймын',
             'Таза код пен алгоритмдерге қызығушымын'
         ],
@@ -212,7 +212,7 @@ const translations = {
         detailFocusValue: 'Fullstack әзірлеу',
 
         leetcodeTitle: 'LeetCode жетістіктері',
-        leetcodeDesc: 'Күшті алгоритмдік ойлау және есептерді шешу дағдылары <strong>LeetCode-та 50+ есеп</strong> шешу арқылы дәлелденген. Деректер құрылымдары, алгоритмдер және спорттық программалауда білікті.',
+        leetcodeDesc: 'Күшті алгоритмдік ойлау және есептерді шешу дағдылары <strong>LeetCode-та 100+ есеп</strong> шешу арқылы дәлелденген. Деректер құрылымдары, алгоритмдер және спорттық программалауда білікті.',
         leetcodeBtn: 'LeetCode профилі',
 
         contactTitle: 'Хабарласыңыз',
