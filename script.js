@@ -116,8 +116,9 @@ const translations = {
         // About
         aboutTitle: 'About Me',
         aboutP1: "I'm a <strong>2nd Year Computer Systems and Software Student</strong> at KBTU (Kazakhstan-British Technical University) with a passion for building scalable web applications and solving complex algorithmic challenges.",
-        aboutP2: "As a <strong>strong junior developer</strong>, I specialize in both frontend and backend development, with expertise in <strong>C++</strong> and <strong>Python</strong>. I have a solid understanding of programming language concepts and love learning new technologies.",
-        aboutP3: "I'm passionate about <strong>game development</strong> and <strong>operating systems</strong>. I'm open to opportunities across all areas of software development and eager to expand my expertise.",
+        aboutP2: "As a <strong>strong junior developer</strong>, I specialize in both frontend and backend development, with strong expertise in <strong>C++</strong> and experience in <strong>Python</strong>. I have a solid understanding of data structures, algorithms, and programming language concepts.",
+        aboutP3: "I have <strong>hands-on fullstack experience</strong> — built and deployed a complete MERN-like application to production (Render + Vercel), implementing authentication, real-time data sync, and AI integration from scratch.",
+        aboutP4: "I'm passionate about <strong>game development</strong> and <strong>operating systems</strong>. I'm open to opportunities across all areas of software development and eager to expand my expertise.",
         detailEducation: 'Education:',
         detailEducationValue: 'KBTU, Computer Systems and Software',
         detailLevel: 'Level:',
@@ -159,8 +160,9 @@ const translations = {
 
         aboutTitle: 'Обо мне',
         aboutP1: "Я студент <strong>2 курса по специальности Компьютерные системы и ПО</strong> в KBTU (Казахстанско-Британский Технический Университет). Увлекаюсь созданием масштабируемых веб-приложений и решением сложных алгоритмических задач.",
-        aboutP2: "Как <strong>strong junior разработчик</strong>, специализируюсь на frontend и backend разработке, с экспертизой в <strong>C++</strong> и <strong>Python</strong>. Имею твёрдое понимание концепций языков программирования и люблю изучать новые технологии.",
-        aboutP3: "Увлекаюсь <strong>разработкой игр</strong> и <strong>операционными системами</strong>. Открыт для возможностей во всех направлениях разработки ПО и стремлюсь расширять свою экспертизу.",
+        aboutP2: "Как <strong>strong junior разработчик</strong>, специализируюсь на frontend и backend разработке, с экспертизой в <strong>C++</strong> и опытом в <strong>Python</strong>. Имею твёрдое понимание структур данных, алгоритмов и концепций языков программирования.",
+        aboutP3: "Имею <strong>практический fullstack опыт</strong> — построил и развернул полноценное MERN-подобное приложение в production (Render + Vercel), реализовав аутентификацию, real-time синхронизацию данных и интеграцию AI с нуля.",
+        aboutP4: "Увлекаюсь <strong>разработкой игр</strong> и <strong>операционными системами</strong>. Открыт для возможностей во всех направлениях разработки ПО и стремлюсь расширять свою экспертизу.",
         detailEducation: 'Образование:',
         detailEducationValue: 'KBTU, Компьютерные системы и ПО',
         detailLevel: 'Уровень:',
@@ -200,8 +202,9 @@ const translations = {
 
         aboutTitle: 'Мен туралы',
         aboutP1: "Мен KBTU (Қазақстан-Британ Техникалық Университеті) <strong>Компьютерлік жүйелер және БҚ мамандығының 2 курс студентімін</strong>. Масштабталатын веб-қосымшаларды жасауға және күрделі алгоритмдік есептерді шешуге қызығамын.",
-        aboutP2: "<strong>Strong junior әзірлеуші</strong> ретінде, frontend және backend әзірлеуде маманданамын, <strong>C++</strong> және <strong>Python</strong> тілдерінде тәжірибем бар. Программалау тілдерінің концепцияларын жақсы түсінемін және жаңа технологияларды үйренуді ұнатамын.",
-        aboutP3: "<strong>Ойын әзірлеуге</strong> және <strong>операциялық жүйелерге</strong> қызығамын. БҚ әзірлеудің барлық бағыттарында жұмыс істеуге дайынмын және өз тәжірибемді кеңейтуге ұмтыламын.",
+        aboutP2: "<strong>Strong junior әзірлеуші</strong> ретінде, frontend және backend әзірлеуде маманданамын, <strong>C++</strong> тілінде тереңдетілген тәжірибем және <strong>Python</strong> тілінде тәжірибем бар. Деректер құрылымдары, алгоритмдер және программалау тілдерінің концепцияларын жақсы түсінемін.",
+        aboutP3: "<strong>Практикалық fullstack тәжірибем бар</strong> — толық MERN тәрізді қосымшаны production-ға (Render + Vercel) құрдым және орналастырдым, аутентификация, real-time деректерді синхрондау және AI интеграциясын нөлден іске асырдым.",
+        aboutP4: "<strong>Ойын әзірлеуге</strong> және <strong>операциялық жүйелерге</strong> қызығамын. БҚ әзірлеудің барлық бағыттарында жұмыс істеуге дайынмын және өз тәжірибемді кеңейтуге ұмтыламын.",
         detailEducation: 'Білім:',
         detailEducationValue: 'KBTU, Компьютерлік жүйелер және БҚ',
         detailLevel: 'Деңгей:',
@@ -253,6 +256,7 @@ function applyTranslations(lang) {
     aboutPs[0].innerHTML = t.aboutP1;
     aboutPs[1].innerHTML = t.aboutP2;
     if (aboutPs[2]) aboutPs[2].innerHTML = t.aboutP3;
+    if (aboutPs[3]) aboutPs[3].innerHTML = t.aboutP4;
 
     document.querySelectorAll('.detail-label')[0].textContent = t.detailEducation;
     document.querySelectorAll('.detail-value')[0].textContent = t.detailEducationValue;
