@@ -10,11 +10,14 @@
 
 I'm a **strong junior fullstack developer** currently pursuing Computer Science at KBTU. I'm passionate about building scalable web applications, game development, and solving complex algorithmic challenges. With strong expertise in **C++** and experience in **Python**, I love learning new technologies and contributing to innovative projects.
 
+I have **hands-on fullstack experience** — built and deployed a complete production-ready MERN-like application with authentication, real-time sync, and AI integration (Render + Vercel deployment).
+
 - 🎓 2nd Year Computer Science Student at **KBTU**
 - 💻 Strong expertise in **C++**, experience in **Python**
+- 🚀 **Fullstack deployment experience** (Node.js + MongoDB + Vercel + Render)
 - 🧩 Solved **100+ LeetCode problems** (primarily C++)
 - 🎮 Game development & data structures implementation
-- 🌐 Building fullstack web applications
+- 🌐 Building fullstack web applications with production deployment
 - 🌱 Currently expanding skills in **React** and **Node.js**
 - 💼 Open to remote opportunities
 - 🗣️ Kazakh (Native), Russian (Native), **English (B2)**
@@ -33,6 +36,7 @@ I'm a **strong junior fullstack developer** currently pursuing Computer Science 
 ![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
 
 ### Frontend
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
@@ -47,6 +51,8 @@ I'm a **strong junior fullstack developer** currently pursuing Computer Science 
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Render](https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 
 ## 📊 LeetCode Stats
 
@@ -55,6 +61,18 @@ I'm a **strong junior fullstack developer** currently pursuing Computer Science 
 **Strong algorithmic thinking** | Data Structures & Algorithms | Problem Solving
 
 ## 🎯 Featured Projects
+
+### 📊 Discipline Tracker
+**Tech Stack:** JavaScript, Node.js, Express, MongoDB  
+**Production Deployment:** Render (Backend) + Vercel (Frontend)  
+Full-stack productivity tracker with AI mentor integration — complete MERN-like architecture built from scratch.
+- ✅ **Full deployment experience**: backend on Render, frontend on Vercel, MongoDB Atlas
+- ✅ Real-time task tracking with calendar visualization
+- ✅ JWT authentication & secure data synchronization
+- ✅ Claude AI-powered daily progress analysis and coaching
+- ✅ Professional UI with dark/light theme and mobile responsiveness
+
+[**🔗 View on GitHub**](https://github.com/ulan07/tracker)
 
 ### 🐍 Snake Game
 **Tech Stack:** C++, Windows API, Console Graphics  
